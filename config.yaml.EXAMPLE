@@ -1,0 +1,27 @@
+# Configuration of the IMAP PROTOCOL
+imap:
+        # form : https://support.office.com/en-us/article/pop-and-imap-email-settings-for-outlook-8361e398-8af4-4e97-b147-6c6c4ac95353
+        server_domain: outlook.office365.com
+        server_protocol: SSL
+        server_port: 993
+        server_user: XXXXX@DOMAIN_IN.com
+        server_pass: pppppppppp
+        server_folder_inbox: INBOX
+
+# Configuration of the SMTP PROTOCOL
+smtp:
+        server_host: smtp.office365.com
+        server_protocol: SSL
+        server_port: 587
+        server_user: yyyyyy@DOMAIN_OUT.com
+        server_pass: pppppppppp
+
+# Configuration of the AUTOMAIL SERVER
+automail:
+        # Polling frecuency in seconds
+        poll_frequency:  5
+        hashtag_test: '#TEST'
+
+# Configuration of the COMMAND PROCESSOR
+plugin_commands:
+        sender_whitelist: 
